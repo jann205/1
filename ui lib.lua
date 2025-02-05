@@ -284,7 +284,7 @@ coroutine.wrap(
 local notiftheme;
 
 function HawkLib:Window(Win)
-	if _Hawk == "ohhahtuhthttouttpwuttuaunbotwo" then
+	if _ui == "JANNBONTHETOP" then
 		local ScriptName;
 		local DestroyIfExists;
 		local Theme;
@@ -614,7 +614,7 @@ function HawkLib:Window(Win)
 							OpenFrame.Parent = Hawk
 							OpenFrame.Active = true
 							OpenFrame.BackgroundColor3 = HawkLib.Themes[Theme].TitleBar
-							OpenFrame.Position = UDim2.new(0, 0, 0, 282)
+							OpenFrame.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 							OpenFrame.Selectable = true
 							OpenFrame.Size = UDim2.new(0, 45, 0, 45)
 							OpenFrame.Visible = false
@@ -629,9 +629,9 @@ function HawkLib:Window(Win)
 							Open.BackgroundColor3 = HawkLib.Themes[Theme].ItemColors
 							Open.Size = UDim2.new(1.0, 0, 0.92, 0)
 							Open.Font = Enum.Font.GothamBold
-							Open.Text = "LPH"
+							Open.Text = "TarH"
 							Open.TextColor3 = HawkLib.Themes[Theme].ItemTitleColors
-							Open.TextSize = 22.000
+							Open.TextSize = 20.000
 							Open.TextWrapped = true
 							Open.AutoButtonColor = false
 							MakeDraggable(Open, OpenFrame)
